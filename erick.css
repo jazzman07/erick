@@ -30,7 +30,7 @@ body {
     margin: 0;
     position: absolute;
     top: 20%;
-    left: 35%;
+    left: 30%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
 
@@ -84,7 +84,7 @@ body {
   margin: 0;
   position: absolute;
   top: 20%;
-  left: 60%;
+  left: 55%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 

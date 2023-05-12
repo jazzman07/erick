@@ -1,8 +1,10 @@
 var b = document.querySelector(".no");
 b.addEventListener("click", change);
 function change(){
-    var i = Math.floor(Math.random()*400)+1;
-    var j = Math.floor(Math.random()*400)+1;
+    min = Math.ceil(10);
+    max = Math.floor(300);
+    var i = Math.floor(Math.random() * (max - min) + min);
+    var j = Math.floor(Math.random() * (max - min) + min);
     b.style.left = i+"px";
     b.style.top = j+"px";
 }
